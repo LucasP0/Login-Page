@@ -187,13 +187,22 @@ body {
   background: white;
   transform: scal(1.1);
 }
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-top: 2rem;
+}
 
 @media (max-width: 450px) {
   .form-item-other {
+    
     display: flex;
     flex-direction: column;
     gap: .8rem;
-    justify-content: center;
+    align-content: flex-start;
+   
   }
   .login-card {
   }
